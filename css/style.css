@@ -1,0 +1,248 @@
+@charset "utf-8";
+/**/
+body,html,div,blockquote,img,label,p,h1,h2,h3,h4,h5,h6,pre,ul,ol,li,dl,dt,dd,form,a,fieldset,input,th,td
+{margin: 0; padding: 0; outline: none;}
+body{
+    background-color:lightblue;
+    font-family: "黑体";
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+    text-align: left;
+}
+td,th{
+    font-family: "黑体";
+    font-size: 14px;
+    color: black;
+    border:thin dotted gray;
+    padding:5px;
+}
+a{
+    color: #fff;
+}
+A:link{
+    text-decoration: none;/*改变超链接颜色*/
+}
+A:visited{
+    text-decoration: none;
+}
+A:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+ul,li{
+    list-style-type: none;
+}
+.clearit{
+    clear: both;/*清除左右遮挡*/
+}
+.wrapper{
+    width:1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border:solid #666 1px;
+}
+.nav{
+    width: 1200px;/*导航区固定大小*/
+    height: 36px;
+    background: #779aae;
+}
+.nav ul{
+    margin-left: 400px;
+}
+.nav li{
+    width: 150px;
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    font-weight: bold;
+}
+.nav li a:hover{
+    color: black;
+}
+.content{
+    width: 1200px;
+    margin-top:20px;
+}
+.main{
+    width: 1180px;
+    margin:0 auto;
+}
+.main img{
+    width: 250px;
+    padding: 10px;
+    margin-left: 14px;
+    border: solid #666 1px;
+}
+.main-a{
+    width: 1180px;
+    margin: 20px auto;
+    background :#e9f4fa;
+}
+.main-a h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "微软雅黑";
+}
+.main-a h3{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 30px;
+}
+.foot{
+    width: 1200px;/*页脚区*/
+    background: #779aae;
+}
+.foot h3{
+    text-align: center;
+    color:#FFF;
+    line-height: 40px;
+}
+.main-b{
+    width: 1200px;
+    margin: 20px auto;
+    background: rgb(248, 248, 227);
+}
+.main-b h2{
+    text-align: center;
+    padding: 20px 0;
+    font-family: "微软雅黑";
+}
+.main-b h5{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 50px;
+}
+.main-d{
+    width: 720px;
+    height: 620px;
+    margin: auto;
+    background: white;
+    float: left;
+}
+.main-d h2{
+    text-align: center;
+    padding: 20px 0;
+    font-family: "微软雅黑";
+}
+.main-d h5{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 50px;
+}
+.main-e{
+    width: 1200px;
+    margin: 20px auto;
+    background: white;
+}
+.main-e h2{
+    text-align: center;
+    padding: 20px 0;
+    font-family: "微软雅黑";
+}
+#sidebar {
+    display: table-cell;
+    width: 500px;
+    font-size: 105%;
+    vertical-align: top;
+    float: right;
+}
+.tip{
+    width:350px;/*爱好页面里存放照片和文字的板块*/
+    text-align:center;
+    float:left;
+    margin:20px 24px;
+    border:solid #CCC 1px;
+    background:#FFF;
+}
+          
+.tip img{
+    width:350px;
+}
+
+.tip h3{
+    font-size:14px;
+    line-height:30px;
+}	  
+     
+.tip h4{
+    font-size:12px;
+    line-height:30px;
+    font-weight:normal;
+}	  
+
+.main-c{
+    width:1200px;
+    clear: both;
+}
+     
+.main-c img{
+    width:250px;
+    padding:10px;
+    margin-left:18px;
+    border:solid #666 1px;
+    margin-top:20px;
+}
+.main-c h2{
+    text-align: center;
+    padding: 20px 0;
+    font-family: "微软雅黑";
+    font-size:14px;
+    line-height:30px;
+    background:#a0c6db;
+    letter-spacing:2px;
+}    
+.main-c h3{
+    font-size:14px;
+    text-align:center;
+    line-height:30px;
+    background:#a0c6db;
+    letter-spacing:2px;
+    color:#FFF;
+}	  
+
+.main-d{
+    background:#e9f4fa;
+}
+
+.message {/*留言格式*/
+    width:550px;
+    margin:0 auto;
+    padding:30px 0;
+}	  
+     
+.message h2{
+    text-align:center;
+    color:#3e647a;
+}	  
+     
+.message ul{
+    margin:30px auto;
+    font-size:14px;
+    color:#3e647a;
+}
+table {/*表格格式*/
+    width: 1160px;
+    margin-left:      20px;
+    margin-right:     20px;
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:  collapse;
+  }
+  
+table table th {
+    background-color: white;
+  }
+th {
+    background-color:#779aae;
+  }
+.cellcolor {
+    background-color:#a0c6db;
+  }  
+.center {
+    text-align:       center;
+  }
+.right {
+    text-align:       right;
+  }
